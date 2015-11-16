@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0478C51F1BFA06C800001FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478C51E1BFA06C800001FFA /* AppDelegate.swift */; };
+		0478C5211BFA06C800001FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478C5201BFA06C800001FFA /* ViewController.swift */; };
+		0478C5241BFA06C800001FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478C5221BFA06C800001FFA /* Main.storyboard */; };
+		0478C5261BFA06C800001FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0478C5251BFA06C800001FFA /* Assets.xcassets */; };
+		0478C5291BFA06C800001FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0478C5271BFA06C800001FFA /* LaunchScreen.storyboard */; };
+		0478C5341BFA06C900001FFA /* DongGabProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478C5331BFA06C900001FFA /* DongGabProjectTests.swift */; };
+		0478C53F1BFA06C900001FFA /* DongGabProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478C53E1BFA06C900001FFA /* DongGabProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0478C5301BFA06C900001FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0478C5131BFA06C800001FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0478C51A1BFA06C800001FFA;
+			remoteInfo = DongGabProject;
+		};
+		0478C53B1BFA06C900001FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0478C5131BFA06C800001FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0478C51A1BFA06C800001FFA;
+			remoteInfo = DongGabProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0478C51B1BFA06C800001FFA /* DongGabProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DongGabProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478C51E1BFA06C800001FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0478C5201BFA06C800001FFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0478C5231BFA06C800001FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0478C5251BFA06C800001FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0478C5281BFA06C800001FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0478C52A1BFA06C800001FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0478C52F1BFA06C900001FFA /* DongGabProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongGabProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478C5331BFA06C900001FFA /* DongGabProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongGabProjectTests.swift; sourceTree = "<group>"; };
+		0478C5351BFA06C900001FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0478C53A1BFA06C900001FFA /* DongGabProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongGabProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478C53E1BFA06C900001FFA /* DongGabProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongGabProjectUITests.swift; sourceTree = "<group>"; };
+		0478C5401BFA06C900001FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0478C5181BFA06C800001FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478C52C1BFA06C900001FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478C5371BFA06C900001FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0478C5121BFA06C800001FFA = {
+			isa = PBXGroup;
+			children = (
+				0478C51D1BFA06C800001FFA /* DongGabProject */,
+				0478C5321BFA06C900001FFA /* DongGabProjectTests */,
+				0478C53D1BFA06C900001FFA /* DongGabProjectUITests */,
+				0478C51C1BFA06C800001FFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0478C51C1BFA06C800001FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0478C51B1BFA06C800001FFA /* DongGabProject.app */,
+				0478C52F1BFA06C900001FFA /* DongGabProjectTests.xctest */,
+				0478C53A1BFA06C900001FFA /* DongGabProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0478C51D1BFA06C800001FFA /* DongGabProject */ = {
+			isa = PBXGroup;
+			children = (
+				0478C51E1BFA06C800001FFA /* AppDelegate.swift */,
+				0478C5201BFA06C800001FFA /* ViewController.swift */,
+				0478C5221BFA06C800001FFA /* Main.storyboard */,
+				0478C5251BFA06C800001FFA /* Assets.xcassets */,
+				0478C5271BFA06C800001FFA /* LaunchScreen.storyboard */,
+				0478C52A1BFA06C800001FFA /* Info.plist */,
+			);
+			path = DongGabProject;
+			sourceTree = "<group>";
+		};
+		0478C5321BFA06C900001FFA /* DongGabProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0478C5331BFA06C900001FFA /* DongGabProjectTests.swift */,
+				0478C5351BFA06C900001FFA /* Info.plist */,
+			);
+			path = DongGabProjectTests;
+			sourceTree = "<group>";
+		};
+		0478C53D1BFA06C900001FFA /* DongGabProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0478C53E1BFA06C900001FFA /* DongGabProjectUITests.swift */,
+				0478C5401BFA06C900001FFA /* Info.plist */,
+			);
+			path = DongGabProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0478C51A1BFA06C800001FFA /* DongGabProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478C5431BFA06C900001FFA /* Build configuration list for PBXNativeTarget "DongGabProject" */;
+			buildPhases = (
+				0478C5171BFA06C800001FFA /* Sources */,
+				0478C5181BFA06C800001FFA /* Frameworks */,
+				0478C5191BFA06C800001FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DongGabProject;
+			productName = DongGabProject;
+			productReference = 0478C51B1BFA06C800001FFA /* DongGabProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0478C52E1BFA06C900001FFA /* DongGabProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478C5461BFA06C900001FFA /* Build configuration list for PBXNativeTarget "DongGabProjectTests" */;
+			buildPhases = (
+				0478C52B1BFA06C900001FFA /* Sources */,
+				0478C52C1BFA06C900001FFA /* Frameworks */,
+				0478C52D1BFA06C900001FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0478C5311BFA06C900001FFA /* PBXTargetDependency */,
+			);
+			name = DongGabProjectTests;
+			productName = DongGabProjectTests;
+			productReference = 0478C52F1BFA06C900001FFA /* DongGabProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0478C5391BFA06C900001FFA /* DongGabProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478C5491BFA06C900001FFA /* Build configuration list for PBXNativeTarget "DongGabProjectUITests" */;
+			buildPhases = (
+				0478C5361BFA06C900001FFA /* Sources */,
+				0478C5371BFA06C900001FFA /* Frameworks */,
+				0478C5381BFA06C900001FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0478C53C1BFA06C900001FFA /* PBXTargetDependency */,
+			);
+			name = DongGabProjectUITests;
+			productName = DongGabProjectUITests;
+			productReference = 0478C53A1BFA06C900001FFA /* DongGabProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0478C5131BFA06C800001FFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = feelow;
+				TargetAttributes = {
+					0478C51A1BFA06C800001FFA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					0478C52E1BFA06C900001FFA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0478C51A1BFA06C800001FFA;
+					};
+					0478C5391BFA06C900001FFA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0478C51A1BFA06C800001FFA;
+					};
+				};
+			};
+			buildConfigurationList = 0478C5161BFA06C800001FFA /* Build configuration list for PBXProject "DongGabProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0478C5121BFA06C800001FFA;
+			productRefGroup = 0478C51C1BFA06C800001FFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0478C51A1BFA06C800001FFA /* DongGabProject */,
+				0478C52E1BFA06C900001FFA /* DongGabProjectTests */,
+				0478C5391BFA06C900001FFA /* DongGabProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0478C5191BFA06C800001FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478C5291BFA06C800001FFA /* LaunchScreen.storyboard in Resources */,
+				0478C5261BFA06C800001FFA /* Assets.xcassets in Resources */,
+				0478C5241BFA06C800001FFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478C52D1BFA06C900001FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478C5381BFA06C900001FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0478C5171BFA06C800001FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478C5211BFA06C800001FFA /* ViewController.swift in Sources */,
+				0478C51F1BFA06C800001FFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478C52B1BFA06C900001FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478C5341BFA06C900001FFA /* DongGabProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478C5361BFA06C900001FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478C53F1BFA06C900001FFA /* DongGabProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0478C5311BFA06C900001FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0478C51A1BFA06C800001FFA /* DongGabProject */;
+			targetProxy = 0478C5301BFA06C900001FFA /* PBXContainerItemProxy */;
+		};
+		0478C53C1BFA06C900001FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0478C51A1BFA06C800001FFA /* DongGabProject */;
+			targetProxy = 0478C53B1BFA06C900001FFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0478C5221BFA06C800001FFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478C5231BFA06C800001FFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0478C5271BFA06C800001FFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478C5281BFA06C800001FFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0478C5411BFA06C900001FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0478C5421BFA06C900001FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0478C5441BFA06C900001FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DongGabProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjhfam.DongGabProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0478C5451BFA06C900001FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DongGabProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjhfam.DongGabProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0478C5471BFA06C900001FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DongGabProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjhfam.DongGabProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DongGabProject.app/DongGabProject";
+			};
+			name = Debug;
+		};
+		0478C5481BFA06C900001FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DongGabProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjhfam.DongGabProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DongGabProject.app/DongGabProject";
+			};
+			name = Release;
+		};
+		0478C54A1BFA06C900001FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DongGabProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjhfam.DongGabProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DongGabProject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0478C54B1BFA06C900001FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DongGabProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjhfam.DongGabProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DongGabProject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0478C5161BFA06C800001FFA /* Build configuration list for PBXProject "DongGabProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478C5411BFA06C900001FFA /* Debug */,
+				0478C5421BFA06C900001FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478C5431BFA06C900001FFA /* Build configuration list for PBXNativeTarget "DongGabProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478C5441BFA06C900001FFA /* Debug */,
+				0478C5451BFA06C900001FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0478C5461BFA06C900001FFA /* Build configuration list for PBXNativeTarget "DongGabProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478C5471BFA06C900001FFA /* Debug */,
+				0478C5481BFA06C900001FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0478C5491BFA06C900001FFA /* Build configuration list for PBXNativeTarget "DongGabProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478C54A1BFA06C900001FFA /* Debug */,
+				0478C54B1BFA06C900001FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0478C5131BFA06C800001FFA /* Project object */;
+}
